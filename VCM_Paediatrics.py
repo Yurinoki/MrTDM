@@ -55,7 +55,7 @@ def PRED_VCM_Paediatrics(theta, par):
                         CL = tvCL1 + tvCL3 * (1.0 - bg.Age[0])
                     CL *= amt.BW[iAMT] * np.exp(hCL)
         
-                    V = tvV * amt.BW{iAMT] * np.exp(hV)
+                    V = tvV * amt.BW[iAMT] * np.exp(hV)
         
                     Ke = CL / V
                                        
